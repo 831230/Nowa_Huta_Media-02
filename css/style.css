@@ -71,9 +71,6 @@ button {
   letter-spacing: 0.1em;
   color: #424a57;
   transition: color 500ms linear, font-size 500ms;
-  /* transition-property: color; */
-  /* transition-duration: 600ms; */
-    /* transition: color 300ms linear; */
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -194,6 +191,7 @@ button {
   -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
   box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
   overflow: hidden;
+  transition: all 500ms;
 }
 .last-podcasts-item:not(:last-child),
 .last-events-item:not(:last-child),
@@ -238,10 +236,11 @@ box-shadow: 2px 5px 16px -6px rgba(181, 12, 17, 1);
   letter-spacing: 4px;
   font-size: 14px;
   color: #b50c11;
-  background-color: #8e8e8e ;
+  background-color: #1b1b1b ;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 15);
   margin-bottom: 80px;
   border: none;
+  transition: background-color 500ms, color 500ms, box-shadow 500ms;
 }
 
 .news-btn:hover,
@@ -385,6 +384,7 @@ justify-content: center;
   font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  transition: color 300ms;
 }
 
 .aboute-right-link:hover,
@@ -437,6 +437,7 @@ justify-content: center;
   font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  transition: color 300ms, font-size 1000ms;
 }
 
 .footer-link:hover,
