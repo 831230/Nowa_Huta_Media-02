@@ -47,7 +47,13 @@ button {
   padding-right: 100px; */
 }
 
+.header-logo-space {
+  display: flex;
+  padding-left: 20px;
+}
+
 .header-navigation {
+  display: flex;
   text-align: center;
  }
 
@@ -59,6 +65,10 @@ button {
   justify-content: center;
   background-color: #ffffff;
 }
+
+/* .header-navigation-item {
+  padding: 5px;
+} */
 
 .header-navigation-item:not(:last-child) {
   margin-right: 30px;
@@ -76,23 +86,39 @@ button {
 .navigation-link:focus {
   color: #b50c11;
   font-size: 13px;
-  text-decoration-line: underline;
-  /* border: 1px solid #b50c11; */
+  border: 1px solid #b50c11;
+  padding: 5px;
   /* font-weight: bold; */
+}
+
+.home {
+  border: 1px solid #b50c11;
+  padding: 5px;
 }
 
 .header-player {
   /* position: fixed; */
   display: flex;
   margin: 0;
-  width: 1120px;
-  height: 51px;
+  width: 1200px;
+  height: 25px;
   text-transform: uppercase;
+
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: #1b1b1b;
+  background-color: #212325;
   color: #d9d9d9;
+}
+
+.header-player-title {
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    margin-right: 20px;
+}
+
+.header-player-audio {
+  height: 25px;
 }
 
 
@@ -233,20 +259,20 @@ box-shadow: 2px 5px 16px -6px rgba(181, 12, 17, 1);
   border-radius: 4px;  
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 4px; 
   font-size: 14px;
-  color: #b50c11;
-  background-color: #1b1b1b ;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 15);
+  color: #ff0000;
+  background-color: white ;
+  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 15); */
   margin-bottom: 80px;
-  border: none;
+  border: 1px solid black;
   transition: background-color 500ms, color 500ms, box-shadow 500ms;
 }
 
 .news-btn:hover,
 .news-btn:focus {
   background-color: #b50c11;
-  color: #dadada;
+  color: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 15);
 }
 
@@ -447,3 +473,15 @@ justify-content: center;
 }
 
 /* ==========END FOOTER===========  */
+
+.header-player {
+  /* align-items;
+  text-align;
+  justify-content; */
+  margin: 0 auto;
+}
+
+
+label:first-of-type { color: red; }
+label:nth-of-type(2) { color: green; }
+label:last-of-type { color: blue; }

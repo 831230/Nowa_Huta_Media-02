@@ -19,13 +19,13 @@
                     <!-- ========================HEADER======================== -->
     <header class="header">
         <div class="container">
-            <div class="header-left-side">
-                <a class="logo" href="index.html"><img src="images/Logo2.jpg" alt="Logo Nowa Huta" width="80" height="101"></a>
-            </div>
-            <div class="header-right-side">
+            <div class="header-space">
                 <nav class="header-navigation">
+                    <div class="header-logo-space">
+                        <a class="logo-link" href="index.html"><img class="logo-link-img" src="images/logo2_bc_white_100x113.jpg" alt="Logo Nowa Huta" width="50px" height="57px"></a>
+                    </div>
                     <ul class="header-navigation-list">
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Strona główna</a></li>
+                        <li class="header-navigation-item"><a href="#" class="navigation-link home">Strona główna</a></li>
                         <li class="header-navigation-item"><a href="#" class="navigation-link">Na żywo</a></li>
                         <li class="header-navigation-item"><a href="#" class="navigation-link">Wydarzenia</a></li>
                         <li class="header-navigation-item"><a href="#" class="navigation-link">Ramówka</a></li>
@@ -35,12 +35,10 @@
                     </ul>
                 </nav>
                 <figure class="header-player">
-                    <figcaption>Radio Nowa Huta:</figcaption>
-                    <audio
+                    <figcaption class="header-player-title">Radio Nowa Huta:</figcaption>
+                    <audio class="header-player-audio"
                         controls
                         src="/media/cc0-audio/t-rex-roar.mp3">
-                            Your browser does not support the
-                            <code>audio</code> element.
                     </audio>
                  </figure>
             </div>
@@ -49,13 +47,40 @@
                     <!-- ============================END HEADER======================== -->
 
 
+                    <!-- <form>
+  <label> 
+    <input type="radio" name="color" value="red">czerwony
+  </label>
+  <label>zielony 
+    <input type="radio" name="color" value="green">
+  </label>
+  <label>niebieski
+    <input type="radio" name="color" value="blue">
+  </label>
+</form> -->
+
+
+<!-- <form action="javascript:void(0);">
+    <select>
+            <option value="frontend">Frontend</option>
+            <option value="html" selected>HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="vue">Vue</option>
+            <option value="react">React + GraphQL</option>
+            <option value="angular">Angular</option>
+    </select>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form> -->
+
                         <!-- ==========================MAIN========================== -->
     <main class="main">
 
 <!-- ============HERO============ -->
         <section class="hero">
             <div class="container">
-                <img class="hero-img" src="images/header3.jpg" alt="NOWA HUTA MEDIA">
+                <img class="hero-img" src="images/hero_mixer1200x340.jpg" alt="NOWA HUTA MEDIA">
             </div>
         </section>
 <!-- ==========END HERO========== -->
@@ -221,7 +246,7 @@
 
 <footer class="footer">
     <div class="container">
-        <img class="footer-logo" src="./images/Logo2.jpg" width="120px" height="150px" alt="Logo">
+        <img class="footer-logo" src="./images/Logo2_bc_layer_transparent_120x150.png" width="120px" height="150px" alt="Logo">
         <adress class="footer-adress">
             <ul class="footer-list">
                 <li class="footer-item"><a href="mailto:marek44marczak@gmail.com" class="footer-link mail">marek44marczak@gmail.com</a></li>
