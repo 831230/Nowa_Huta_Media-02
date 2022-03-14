@@ -20,4 +20,35 @@ img {
 button {
   cursor: pointer;
 }
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header-mobile-menu__button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  background-image: url(../images/hamburger-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.header {
+  border-bottom: 1px solid #b50c11;
+}
+
+.header .container {
+  padding: 0 15px;
+  height: 80px;
+}
 /*# sourceMappingURL=main.css.map */
