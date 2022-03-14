@@ -12,80 +12,61 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500;700;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.min.css">
   
 <body>
                     <!-- ========================HEADER======================== -->
-    <header class="header">
-        <div class="container">
-            <div class="header-space">
-                <nav class="header-navigation">
-                    <div class="header-logo-space">
-                        <a class="logo-link" href="index.html"><img class="logo-link-img" src="images/logo2_bc_white_100x113.jpg" alt="Logo Nowa Huta" width="50px" height="57px"></a>
-                    </div>
-                    <ul class="header-navigation-list">
-                        <li class="header-navigation-item"><a href="#" class="navigation-link home">Strona główna</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Na żywo</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Wydarzenia</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Ramówka</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Nasi goście</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Galeria</a></li>
-                        <li class="header-navigation-item"><a href="#" class="navigation-link">Partnerzy</a></li>
-                    </ul>
-                </nav>
-                <figure class="header-player">
-                    <figcaption class="header-player-title">Radio Nowa Huta:</figcaption>
-                    <audio class="header-player-audio"
-                        controls
-                        src="/media/cc0-audio/t-rex-roar.mp3">
-                    </audio>
-                 </figure>
-            </div>
-        </div>
-    </header>
+  <header class="header">
+    <div class="container">
+      <div class="header__space">
+        <nav class="header__navigation">
+          <div class="header__logo-space">
+            <a class="logo__link" href="index.html"><img class="logo__link-img" src="images/logo/logo2_bc_white_100x113.jpg" alt="Logo Nowa Huta" width="50px" height="57px"></a>
+          </div>
+          <div class="header__mobile-menu">
+            <button class="header-mobile-menu__button" type="button" mobile-menu-open>
+              <!-- <svg class="header-mobile-menu__ico" width="40px" height="40px">
+                <use href="./images/menu-mobile-ico.svg"></use>
+              </svg> -->
+            </button>
+          </div>
+          <!-- <ul class="header__navigation-list">
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link header__navigation-link--home">Strona główna</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Na żywo</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Wydarzenia</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Ramówka</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Nasi goście</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Galeria</a></li>
+            <li class="header__navigation-item"><a href="#" class="header__navigation-link">Partnerzy</a></li>
+          </ul> -->
+        </nav>
+        <figure class="header__player">
+          <figcaption class="header__player-title">Radio Nowa Huta:</figcaption>
+          <audio class="header__player-audio"
+            controls
+            src="/media/cc0-audio/t-rex-roar.mp3">
+          </audio>
+        </figure>
+      </div>
+    </div>
+  </header>
                     <!-- ============================END HEADER======================== -->
 
 
-                    <!-- <form>
-  <label> 
-    <input type="radio" name="color" value="red">czerwony
-  </label>
-  <label>zielony 
-    <input type="radio" name="color" value="green">
-  </label>
-  <label>niebieski
-    <input type="radio" name="color" value="blue">
-  </label>
-</form> -->
-
-
-<!-- <form action="javascript:void(0);">
-    <select>
-            <option value="frontend">Frontend</option>
-            <option value="html" selected>HTML</option>
-            <option value="css">CSS</option>
-            <option value="js">JavaScript</option>
-            <option value="vue">Vue</option>
-            <option value="react">React + GraphQL</option>
-            <option value="angular">Angular</option>
-    </select>
-    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
-</form> -->
 
                         <!-- ==========================MAIN========================== -->
-    <main class="main">
+  <main class="main">
 
 <!-- ============HERO============ -->
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container">
                 <img class="hero-img" src="images/hero_mixer1200x340.jpg" alt="NOWA HUTA MEDIA">
             </div>
-        </section>
+        </section> -->
 <!-- ==========END HERO========== -->
 
 <!-- =============NEWS============= -->
-        <section class="news">
+        <!-- <section class="news">
             <div class="container">
                 <div class="last-podcasts">
                     <h2 class="last-podcasts-header">Ostatnio dodane podcasty</h2>
@@ -118,7 +99,6 @@
                             </li>
                         </ul>
                         <div class="news-btn-space"><button class="news-btn" type="button"><span class="news-btn-title">Przejdź do podcasty</span></button></div>
-                    <!-- <a href="#" class="podcasts-link">Przejdź do podcasty</a> -->
                 </div>
 
                 <div class="last-events">
@@ -147,7 +127,6 @@
                         </li>
                     </ul>
                     <div class="news-btn-space"><button class="news-btn" type="button"><span class="news-btn-title">Przejdź do wydarzenia</span></button></div>
-                    <!-- <a href="#" class="events-link">Przejdź do wydarzenina</a> -->
                 </div>
                 
                 <div class="last-films">
@@ -176,25 +155,15 @@
                         </li>
                     </ul>
                     <div class="news-btn-space"><button class="news-btn" type="button"><span class="news-btn-title">Przejdź do filmy</span></button></div>
-                    <!-- <a href="#" class="films-link">Przejdź do filmy</a> -->
                 </div>
-
-                <!-- VIDEO TRIAL -->
-                <!-- <iframe width="300" height="169" src="https://www.youtube.com/embed/Cop4YuPaXbA" 
-                poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe> -->
-                <!-- END VIDEO TRIAL -->
             </div>
-        </section>
+        </section> -->
 
 <!-- ===========END NEWS=========== -->
 
 <!-- ===========ABOUT US=========== -->
 
-        <section class="about">
+        <!-- <section class="about">
             <div class="container">
                 <div class="about-header">
                     <h2 class="about-header-title">O nas</h2>
@@ -234,16 +203,16 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 <!-- =========END ABOUT US========== -->
 
-    </main>
+  </main>
                          <!-- =======================END MAIN======================== -->
 
                          <!-- =========================FOOTER======================== -->
 
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="container">
         <img class="footer-logo" src="./images/Logo2_bc_layer_transparent_120x150.png" width="120px" height="150px" alt="Logo">
         <adress class="footer-adress">
@@ -253,7 +222,7 @@
             </ul>
         </adress>
     </div>
-</footer>
+</footer> -->
 
                          <!-- =======================END FOOTER====================== -->
 
