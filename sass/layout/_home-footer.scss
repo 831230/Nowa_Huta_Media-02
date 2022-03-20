@@ -1,0 +1,27 @@
+@mixin footerBgSetup {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  padding: 40px 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.footer {
+  background-color: $secondary-color;
+}
+
+.footer .container {
+  background-image: url(../images/footer/footer_mini.jpg);
+  @include footerBgSetup;
+}
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer .container {
+        background-image: url(../images/footer/footer_mini@2x.jpg);
+        @include footerBgSetup;
+      }
+    }

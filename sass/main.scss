@@ -15,8 +15,10 @@
 @import "./layout/home-news";
 @import "./layout/home-about";
 @import "./layout/home-footer";
+@import "./layout/home-mobile-menu";
 
-@import "./pages/home/news";
+@import "./pages/home/news-podcast";
+@import "./pages/home/news-events";
 @import "./pages/home/about-description";
 @import "./pages/home/about-contact";
 @import "./pages/home/about-form";

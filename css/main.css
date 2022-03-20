@@ -84,4 +84,58 @@ button {
   padding: 0 15px;
   height: 70px;
 }
+
+.hero {
+  background-color: black;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.news .container {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about .container {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .container {
+  background-image: url(../images/footer/footer_mini.jpg);
+  display: flex;
+  align-items: center;
+  height: 150px;
+  padding: 40px 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .footer .container {
+    background-image: url(../images/footer/footer_mini@2x.jpg);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 40px 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  background-image: url(./images/mobile_bg_w350.jpg);
+}
 /*# sourceMappingURL=main.css.map */
