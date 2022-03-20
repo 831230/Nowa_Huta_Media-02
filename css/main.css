@@ -136,6 +136,19 @@ button {
 .mobile-menu {
   position: fixed;
   top: 0;
-  background-image: url(./images/mobile_bg_w350.jpg);
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 350px;
+  height: 600px;
+  background-image: url(../images/mobile_bg_w350.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 /*# sourceMappingURL=main.css.map */
