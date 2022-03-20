@@ -1,4 +1,4 @@
-
+@import "./utils/visually-hidden";
 @import "./utils/variables";
 
 @import "./base/common";
@@ -6,5 +6,18 @@
 
 @import "./components/header-space";
 @import "./components/header-player";
+@import "./components/footer";
+@import "./components/mobile-menu";
 
 @import "./layout/home";
+@import "./layout/home-header";
+@import "./layout/home-hero";
+@import "./layout/home-news";
+@import "./layout/home-about";
+@import "./layout/home-footer";
+
+@import "./pages/home/news";
+@import "./pages/home/about-description";
+@import "./pages/home/about-contact";
+@import "./pages/home/about-form";
+

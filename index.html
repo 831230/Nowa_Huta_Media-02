@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>radio internetowe nowa huta media</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
     crossorigin="anonymous"
@@ -21,7 +21,7 @@
       <div class="header__space">
         <nav class="header__navigation">
           <div class="header__logo-space">
-            <a class="logo__link" href="index.html"><img class="logo__link-img" src="images/logo/logo2_bc_white_100x113.jpg" alt="Logo Nowa Huta" width="50px" height="57px"></a>
+            <a class="logo__link" href="index.html"><img class="logo__link-img" src="images/logo/logo2_white_100x113.jpg" alt="Logo Nowa Huta" width="50px" height="57px"></a>
           </div>
           <div class="header__mobile-menu">
             <button class="header-mobile-menu__button" type="button" mobile-menu-open>
@@ -60,7 +60,14 @@
     <!-- ============HERO============ -->
     <section class="hero">
       <div class="container">
-        <img class="hero__img" src="images/hero/hero_mixer_background_mini.jpg" alt="NOWA HUTA MEDIA">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./images/hero/desktop/hero_mixer_desktop.jpg 1x, ./images/hero/desktop/hero_mixer_desktop@2x.jpg 2x">
+          <source media="(min-width: 768px)" srcset="./images/hero/tablet/hero_mixer_tablet.jpg 1x, ./images/hero/tablet/hero_mixer_tablet@2x.jpg 2x">
+          <source media="(min-width: 480px)" srcset="./images/hero/mobile/hero_mixer_mobile.jpg 1x, ./images/hero/mobile/hero_mixer_mobile@2x.jpg 2x">
+          <source media="(min-width: 350px)" srcset="./images/hero/hero_mixer_mini.jpg 1x, ./images/hero/hero_mixer_mini@2x.jpg 2x">
+          <img src="images/hero/hero_mixer_mini.jpg" alt="NOWA HUTA MEDIA">
+        </picture>
+        
       </div>
     </section>
     <!-- ==========END HERO========== -->
@@ -144,7 +151,7 @@
           <div class="news__btn-space"><button class="news__btn" type="button"><span class="news__btn-title">Przejdź do wydarzenia</span></button></div>
         </div>
           
-        <div class="last-films">
+        <!-- <div class="last-films">
           <h2 class="last-films-header">Ostatnio dodane filmy</h2>
           <ul class="last-films-list">
             <li class="last-films-item">
@@ -177,7 +184,7 @@
             </li>
           </ul>
           <div class="news__btn-space"><button class="news__btn" type="button"><span class="news__btn-title">Przejdź do filmy</span></button></div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -187,14 +194,45 @@
 
     <section class="about">
       <div class="container">
-        <div class="about-header">
-          <h2 class="about-header-title">O nas</h2>
-          <h3 class="about-description-header">Wolne Radio Nowa Huta</h3>
-          <p class="about-description-schort">Wolne Radio Nowa Huta Powstaje przy współpracy Centrum B7 i NowaHuta.Media</p>
-          <p class="about-description-long">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aut eligendi similique, fuga maxime vero itaque repudiandae error commodi nam. Qui earum, consequatur porro in molestias corporis facere perspiciatis. Sit facilis nulla dolorem. Impedit quaerat sunt expedita debitis amet rem vel? Ipsa natus maxime facilis neque dolore provident at veniam.</p>
+        <div class="about__header-space">
+          <h2 class="about__header">O nas</h2>
+          <h3 class="about__description-header">Wolne Radio Nowa Huta</h3>
+          <p class="about__description-schort">Wolne Radio Nowa Huta Powstaje przy współpracy Centrum B7 i NowaHuta.Media</p>
+          <p class="about__description-long">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aut eligendi similique, fuga maxime vero itaque repudiandae error commodi nam. Qui earum, consequatur porro in molestias corporis facere perspiciatis. Sit facilis nulla dolorem. Impedit quaerat sunt expedita debitis amet rem vel? Ipsa natus maxime facilis neque dolore provident at veniam.</p>
         </div>
         <div class="about-contact">
-          <div class="about-left-contact-form">
+          <div class="about__data-contact">
+            <h3 class="about__data-contact-header">Skontaktuj się z nami</h3>
+            <ul class="about__data-contact-list">
+              <li class="about__data-contact-item">
+                <h4 class="about__data-contact-item-header">Email</h4>
+                <a href="mailto:marek44marczak@gmail.com" class="about__data-contact-item-link">marek44marczak@gmail.com</a>
+              </li>
+              <li class="about__data-contact-item">
+                <h4 class="about__data-contact-item-header">Telefon</h4>
+                <a href="tel:48690488144" class="about__data-contact-item-link">690 488 144</a>
+              </li>
+              <li class="about__data-contact-item">
+                <h4 class="about__data-contact-item-header">Adres</h4>
+                <a href="https://g.page/centrumb7?share" class="about__data-contact-item-link" target="blank">Nowa Huta Centrum B7</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="about__form">
+            <label for="about__email-label" class="about__form-email-label">
+              <span class="about__form-title">Email</span>
+              <input type="email" id="about__email-label" class="about__form-email-input" placeholder="name@example.com">
+            </label>
+            <label for="about__textarea">
+              <span class="about__form-title">Treść</span>
+              <textarea name="about__form-textarea" id="about__textarea" class="about__form-textarea" placeholder="Wprowadź tekst"></textarea>
+            </label>
+            <button class="about__form-btn" type="submit">
+              <span class="about__form-btn-title">Wyślij</span>
+            </button>
+          </form>
+          <!-- <div class="about-left-contact-form">
             <h3 class="about-contact-form-header">Napisz do nas</h3>
             <FORM action="http://Napisz do nas" method="post">
             <input name="recipient" type="hidden" value="biuro@ledview.pl">
@@ -206,23 +244,8 @@
             <input class="form-input" type="submit" value="Wyślij">
             <input class="" type="reset" value="Wyczyść">
             </FORM>
-          </div>
-          <div class="about-right-contact">
-            <ul class="about-right-list">
-              <li class="about-right-item">
-                <h4 class="aboute-right-header">Email</h4>
-                <a href="mailto:marek44marczak@gmail.com" class="aboute-right-link">marek44marczak@gmail.com</a>
-              </li>
-              <li class="about-right-item">
-                <h4 class="aboute-right-header">Telefon</h4>
-                <a href="tel:48690488144" class="aboute-right-link">690 488 144</a>
-              </li>
-              <li class="about-right-item">
-                <h4 class="aboute-right-header">Adres</h4>
-                <a href="https://g.page/centrumb7?share" class="aboute-right-link" target="blank">Nowa Huta Centrum B7</a>
-              </li>
-            </ul>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </section>
@@ -236,7 +259,7 @@
 
   <footer class="footer">
     <div class="container">
-      <img class="footer-logo" src="./images/Logo2_bc_layer_transparent_120x150.png" width="120px" height="150px" alt="Logo">
+      <img class="footer__logo" src="./images/logo/Logo2_transparent_120x150.png" width="120px" height="150px" alt="Logo">
       <adress class="footer-adress">
         <ul class="footer-list">
           <li class="footer-item"><a href="mailto:marek44marczak@gmail.com" class="footer-link mail">marek44marczak@gmail.com</a></li>
@@ -248,5 +271,20 @@
 
                          <!-- =======================END FOOTER====================== -->
 
+  <div class="mobile-menu is-hidden" mobile-menu>
+    <button class="mobile-menu__close-btn" type="button" mobile-menu-close>x</button>
+    <ul class="mobile-menu__list">
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Strona główna</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Na żywo</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Podcasty</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Wydarzenia</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Ramówka</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Nasi goście</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Partnerzy</a></li>
+    </ul>
+
+  </div>
+
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
