@@ -39,3 +39,16 @@
   box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
 }
 
+
+@mixin formStylesAbout {
+  background-color: $color-theme3;
+  border: 1px solid $color-theme1;
+  border-radius: 4px;
+  color: $color-font-theme1;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  &:hover,
+  &:focus {
+    border-color: $main-color;
+  }
+}

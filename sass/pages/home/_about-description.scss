@@ -47,6 +47,9 @@ margin-bottom: 40px;
 //   display: flex;
 //   flex-direction: column;
 // }
+.about__data-contact {
+  margin-bottom: 30px;
+}
 
 .about__data-contact-header {
   color: $color-font-theme1;
@@ -89,10 +92,44 @@ margin-bottom: 40px;
   &:focus {
     color: $main-color;
   }
-
 }
 
 .about__form {
   display: flex;
   flex-direction: column;
+}
+
+
+// ***********CONTACT FORM************
+.about__form-email-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+}
+.about__form-title {
+  text-align: left;
+  margin-bottom: 3px;
+  color: $color-font-theme1;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about__form-email-input {
+  @include formStylesAbout;
+  margin-bottom: 15px;
+}
+
+.about__textarea-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.about__form-textarea {
+  @include formStylesAbout;
+  height: 60px;
+  margin-bottom: 15px;
 }

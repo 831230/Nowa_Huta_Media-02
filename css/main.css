@@ -329,6 +329,10 @@ button {
   line-height: 1.3;
 }
 
+.about__data-contact {
+  margin-bottom: 30px;
+}
+
 .about__data-contact-header {
   color: #f0f6ff;
   letter-spacing: 0.1em;
@@ -370,5 +374,58 @@ button {
 .about__form {
   display: flex;
   flex-direction: column;
+}
+
+.about__form-email-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.about__form-title {
+  text-align: left;
+  margin-bottom: 3px;
+  color: #f0f6ff;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.about__form-email-input {
+  background-color: #424a578c;
+  border: 1px solid #424a57;
+  border-radius: 4px;
+  color: #f0f6ff;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  margin-bottom: 15px;
+}
+
+.about__form-email-input:hover, .about__form-email-input:focus {
+  border-color: #b50c11;
+}
+
+.about__textarea-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.about__form-textarea {
+  background-color: #424a578c;
+  border: 1px solid #424a57;
+  border-radius: 4px;
+  color: #f0f6ff;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.about__form-textarea:hover, .about__form-textarea:focus {
+  border-color: #b50c11;
 }
 /*# sourceMappingURL=main.css.map */
