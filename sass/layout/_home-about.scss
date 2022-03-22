@@ -1,4 +1,29 @@
-.about .container {
-  padding: 40px 15px;
-  text-align: center;
+.about {
+  background-color: $secondary-color;
 }
+
+.about .container {
+  padding: 20px 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../images/about_us/about_us_mini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .about .container {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../images/about_us/about_us_mini@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+

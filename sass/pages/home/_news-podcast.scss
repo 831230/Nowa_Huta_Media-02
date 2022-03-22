@@ -1,15 +1,16 @@
 
-.news__last-podcasts {
+.news__last-podcasts, 
+.news__last-events {
   width: 350px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
-.news__last-podcasts-header {
-  @include newsHeader;
+.news__headers {
+  @include sectionHeader;
 }
 
-.news__last-podcasts-item {
+.news__item {
   @include newsItem;
 }
 
@@ -24,6 +25,7 @@
   padding-bottom: 5px;
   line-height: 1.5;
   color: $color-theme2;
+
 }
 
 .news__btn {
@@ -45,5 +47,4 @@
       background-color: $main-color;
       border: none;
     }
-
 }
