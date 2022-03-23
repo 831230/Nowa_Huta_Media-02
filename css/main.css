@@ -349,7 +349,8 @@ button {
   transform: translate(-50%, 0);
   width: 340px;
   height: 600px;
-  background-image: url(../../images/mobile_bg_w350.jpg);
+  background-color: black;
+  background-image: url(../../images/mobile_menu/mobile_bg_w350.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15px;
@@ -359,7 +360,7 @@ button {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .mobile-menu {
-    background-image: url(../../images/mobile_bg_w700.jpg);
+    background-image: url(../../images/mobile_menu/mobile_bg_w700.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
