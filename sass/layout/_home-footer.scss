@@ -1,8 +1,6 @@
 @mixin footerBgSetup {
   display: flex;
   align-items: center;
-  height: 150px;
-  padding: 40px 15px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -15,13 +13,82 @@
 .footer .container {
   background-image: url(../images/footer/footer_mini.jpg);
   @include footerBgSetup;
+  height: 150px;
+  padding: 40px 15px;
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .footer .container {
+      background-image: url(../images/footer/footer_mini@2x.jpg);
+      @include footerBgSetup;
+      height: 150px;
+      padding: 40px 15px;
+    }
+}
+
+
+// ---------------------480-----------------------
+@media screen and (min-width: 480px) {
+  .footer .container {
+    background-image: url(../../images/footer/mobile/footer_mobile.jpg);
+    @include footerBgSetup;
+    height: 150px;
+    padding: 40px 20px;
+  }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
       .footer .container {
-        background-image: url(../images/footer/footer_mini@2x.jpg);
+        background-image: url(../../images/footer/mobile/footer_mobile@2x.jpg);
         @include footerBgSetup;
+        height: 150px;
+        padding: 40px 15px;
       }
-    }
+  }
+}
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .footer .container {
+    background-image: url(../../images/footer/tablet/microphone_bg_footer_tablet.jpg);
+    @include footerBgSetup;
+    height: 150px;
+    padding: 40px 15px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer .container {
+        background-image: url(../../images/footer/tablet/microphone_bg_footer_tablet@2x.jpg);
+        @include footerBgSetup;
+        height: 150px;
+        padding: 40px 15px;
+      }
+  }
+}
+
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    background-image: url(../../images/footer/desktop/microphone_bg_footer_desktop.jpg);
+    @include footerBgSetup;
+    height: 150px;
+    padding: 40px 15px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .footer .container {
+        background-image: url(../../images/footer/desktop/microphone_bg_footer_desktop@2x.jpg);
+        @include footerBgSetup;
+        height: 150px;
+        padding: 40px 15px;
+      }
+  }
+}

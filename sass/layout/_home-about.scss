@@ -9,7 +9,7 @@
   background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../images/about_us/about_us_mini.jpg);
+    url(../../images/about_us/about_us_mini.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,9 +21,96 @@
       background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-      url(../images/about_us/about_us_mini@2x.jpg);
+      url(../../images/about_us/about_us_mini@2x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
   }
 
+
+// ---------------------480-----------------------
+@media screen and (min-width: 480px) {
+  .about .container {
+    padding: 40px 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../../images/about_us/mobile/about_us_mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .about .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../../images/about_us/mobile/about_us_mobile@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .about .container {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../../images/about_us/tablet/about_us_tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .about .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../../images/about_us/tablet/about_us_tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .about .container {
+    padding: 40px 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../../images/about_us/desktop/about_us_desktop.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .about .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../../images/about_us/desktop/about_us_desktop@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
