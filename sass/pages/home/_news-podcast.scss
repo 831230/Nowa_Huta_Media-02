@@ -12,6 +12,7 @@
 
 .news__item {
   @include newsItem;
+  padding-bottom: 5px;
 }
 
 .news__video-header {
