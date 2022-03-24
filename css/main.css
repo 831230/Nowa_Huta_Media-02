@@ -166,14 +166,14 @@ button {
   padding: 40px 10px;
   margin-bottom: 40px;
   text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/about_us_mini.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/about_us_mini.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about .container {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/about_us_mini@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/about_us_mini@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -184,7 +184,7 @@ button {
     padding: 40px 15px;
     margin-bottom: 40px;
     text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/mobile/about_us_mobile.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/mobile/about_us_mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -192,7 +192,7 @@ button {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .about .container {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/mobile/about_us_mobile@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/mobile/about_us_mobile@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -203,7 +203,7 @@ button {
     padding: 40px 20px;
     margin-bottom: 40px;
     text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/tablet/about_us_tablet.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/tablet/about_us_tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -211,7 +211,7 @@ button {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .about .container {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/tablet/about_us_tablet@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/tablet/about_us_tablet@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -222,7 +222,7 @@ button {
     padding: 40px 25px;
     margin-bottom: 40px;
     text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/desktop/about_us_desktop.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/desktop/about_us_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -230,7 +230,7 @@ button {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .about .container {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/about_us/desktop/about_us_desktop@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about_us/desktop/about_us_desktop@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -266,7 +266,7 @@ button {
 
 @media screen and (min-width: 480px) {
   .footer .container {
-    background-image: url(../../images/footer/mobile/footer_mobile.jpg);
+    background-image: url(../images/footer/mobile/footer_mobile.jpg);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ button {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .footer .container {
-    background-image: url(../../images/footer/mobile/footer_mobile@2x.jpg);
+    background-image: url(../images/footer/mobile/footer_mobile@2x.jpg);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -305,7 +305,7 @@ button {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .footer .container {
-    background-image: url(../../images/footer/tablet/microphone_bg_footer_tablet@2x.jpg);
+    background-image: url(../images/footer/tablet/microphone_bg_footer_tablet@2x.jpg);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -318,7 +318,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .footer .container {
-    background-image: url(../../images/footer/desktop/microphone_bg_footer_desktop.jpg);
+    background-image: url(../images/footer/desktop/microphone_bg_footer_desktop.jpg);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ button {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .footer .container {
-    background-image: url(../../images/footer/desktop/microphone_bg_footer_desktop@2x.jpg);
+    background-image: url(../images/footer/desktop/microphone_bg_footer_desktop@2x.jpg);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -350,7 +350,7 @@ button {
   width: 340px;
   height: 600px;
   background-color: black;
-  background-image: url(../../images/mobile_menu/mobile_bg_w350.jpg);
+  background-image: url(../images/mobile_menu/mobile_bg_w350.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15px;
@@ -360,7 +360,7 @@ button {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .mobile-menu {
-    background-image: url(../../images/mobile_menu/mobile_bg_w700.jpg);
+    background-image: url(../images/mobile_menu/mobile_bg_w700.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
