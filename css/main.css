@@ -385,6 +385,26 @@ button {
   width: 350px;
 }
 
+.podcasts .container {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.kama .container {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.film-broadcast .container {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.blokblog .container {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
 .news__last-podcasts,
 .news__last-events {
   width: 350px;
@@ -692,5 +712,82 @@ button {
 
 .live__video {
   display: block;
+}
+
+.podcasts__space {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.podcasts__header {
+  padding-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.podcasts__header::after, .podcasts__header::before {
+  content: "";
+  height: 1px;
+  width: 30px;
+  background-color: black;
+}
+
+.podcasts__item {
+  margin-bottom: 15px;
+  border: 1px solid #b7bec9;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 5px 16px -6px #42445a;
+  -moz-box-shadow: 2px 5px 16px -6px #42445a;
+  box-shadow: 2px 5px 16px -6px #42445a;
+  transition: all 500ms;
+  padding-bottom: 5px;
+}
+
+.podcasts__item:hover, .podcasts__item:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px #b50c11;
+  -moz-box-shadow: 2px 5px 16px -6px #b50c11;
+  box-shadow: 2px 5px 16px -6px #b50c11;
+}
+
+.podcasts__video-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.podcasts__video-description {
+  padding-bottom: 5px;
+  line-height: 1.5;
+  color: #757575;
+}
+
+.podcasts__btn {
+  width: 350px;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid #b7bec9;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: #b50c11;
+  transition: color 500ms, background-color 500ms;
+  -webkit-box-shadow: 2px 5px 16px -6px #42445a;
+  -moz-box-shadow: 2px 5px 16px -6px #42445a;
+  box-shadow: 2px 5px 16px -6px #42445a;
+}
+
+.podcasts__btn:hover, .podcasts__btn:focus {
+  color: white;
+  background-color: #b50c11;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */

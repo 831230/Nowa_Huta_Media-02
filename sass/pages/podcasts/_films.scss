@@ -1,0 +1,26 @@
+
+.podcasts__space {
+  @include filmsContainer;
+}
+
+.podcasts__header {
+  @include headersListFilms;
+}
+
+.podcasts__item {
+  @include itemsListFilms;
+  padding-bottom: 5px;
+}
+
+.podcasts__video-header {
+  @include headersVideo;
+}
+
+.podcasts__video-description {
+  @include descriptionsVideo;
+}
+
+.podcasts__btn {
+  @include btnFilmsContainer;
+  @include schadowBtn;
+}
