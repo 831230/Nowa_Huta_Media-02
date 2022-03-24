@@ -451,10 +451,10 @@ button {
   letter-spacing: 0.2em;
   font-weight: 600;
   color: #b50c11;
+  transition: color 500ms, background-color 500ms;
   -webkit-box-shadow: 2px 5px 16px -6px #42445a;
   -moz-box-shadow: 2px 5px 16px -6px #42445a;
   box-shadow: 2px 5px 16px -6px #42445a;
-  transition: color 500ms, background-color 500ms;
 }
 
 .news__btn:hover, .news__btn:focus {

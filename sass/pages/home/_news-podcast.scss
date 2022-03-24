@@ -1,51 +1,27 @@
 
 .news__last-podcasts, 
 .news__last-events {
-  width: 350px;
-  margin: 0 auto;
-  padding-bottom: 50px;
+  @include filmsContainer;
 }
 
 .news__headers {
-  @include sectionHeader;
+  @include headersListFilms;
 }
 
 .news__item {
-  @include newsItem;
+  @include itemsListFilms;
   padding-bottom: 5px;
 }
 
 .news__video-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 18px;
-  letter-spacing: 0.05em;
+  @include headersVideo;
 }
 
 .news__video-description {
-  padding-bottom: 5px;
-  line-height: 1.5;
-  color: $color-theme2;
-
+  @include descriptionsVideo;
 }
 
 .news__btn {
-  width: 350px;
-  height: 25px;
-  background-color: transparent;
-  border: 1px solid $color-theme4;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.2em;
-  font-weight: 600;
-  color: $main-color;
+  @include btnFilmsContainer;
   @include schadowBtn;
-  transition: color 500ms, background-color 500ms;
-    &:hover,
-    &:focus {
-      color: $third-rate-color;
-      background-color: $main-color;
-      border: none;
-    }
 }
