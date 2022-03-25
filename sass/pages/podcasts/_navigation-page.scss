@@ -1,0 +1,43 @@
+
+// .nav-podcast__list {
+//   justify-content: center;
+// }
+
+.nav-podcast__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 2.2;
+  font-weight: 500;
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 30px; 
+    height: 1px;
+    background-color: $color-font-theme1;
+  }
+
+}
+
+.nav-podcast__link {
+  color: $color-font-theme1;
+  &:hover,
+  &:focus {
+    color: $main-color;
+  }
+}
+
+.go-top-space {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.go-top {
+  color: $main-color;
+  opacity: 0.5;
+}

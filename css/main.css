@@ -800,6 +800,44 @@ button {
   display: block;
 }
 
+.nav-podcast__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 2.2;
+  font-weight: 500;
+}
+
+.nav-podcast__item::after, .nav-podcast__item::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #f0f6ff;
+}
+
+.nav-podcast__link {
+  color: #f0f6ff;
+}
+
+.nav-podcast__link:hover, .nav-podcast__link:focus {
+  color: #b50c11;
+}
+
+.go-top-space {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.go-top {
+  color: #b50c11;
+  opacity: 0.5;
+}
+
 .podcasts__space {
   width: 350px;
   margin: 0 auto;
