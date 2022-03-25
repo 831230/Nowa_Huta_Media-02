@@ -1,0 +1,113 @@
+
+.nav-podcast .container {
+  min-height: 266px;
+  padding: 40px 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../images/podcasts/navigation/mini/podcasts_nav_bg_mini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .nav-podcast .container {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../images/podcasts/navigation/mini/podcasts_nav_bg_mini@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+// ---------------------480-----------------------
+@media screen and (min-width: 480px) {
+  .nav-podcast .container {
+    min-height: 365px;
+    padding: 40px 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/podcasts/navigation/mobile/podcasts_nav_bg_mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .nav-podcast .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/podcasts/navigation/mobile/podcasts_nav_bg_mobile@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .nav-podcast .container {
+    min-height: 450px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/podcasts/navigation/tablet/podcasts_nav_bg_tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .nav-podcast .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/podcasts/navigation/tablet/podcasts_nav_bg_tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .nav-podcast .container {
+    min-height: 700px;
+    padding: 40px 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/podcasts/navigation/desktop/podcasts_nav_bg_desktop.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .nav-podcast .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/podcasts/navigation/desktop/podcasts_nav_bg_desktop@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
