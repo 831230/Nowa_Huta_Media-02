@@ -804,11 +804,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  line-height: 2.2;
+  letter-spacing: 0.16em;
+  line-height: 2.4;
   font-weight: 500;
+  transition: all 500ms;
 }
 
 .nav-podcast__item::after, .nav-podcast__item::before {
@@ -819,8 +820,14 @@ button {
   background-color: #f0f6ff;
 }
 
+.nav-podcast__item:hover, .nav-podcast__item:focus {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .nav-podcast__link {
   color: #f0f6ff;
+  transition: all 250ms;
 }
 
 .nav-podcast__link:hover, .nav-podcast__link:focus {
@@ -834,8 +841,15 @@ button {
 }
 
 .go-top {
+  font-size: 11px;
+  letter-spacing: 0.2em;
   color: #b50c11;
-  opacity: 0.5;
+  opacity: 0.3;
+  transition: all 250ms;
+}
+
+.go-top:hover, .go-top:focus {
+  opacity: 1;
 }
 
 .podcasts__space {
