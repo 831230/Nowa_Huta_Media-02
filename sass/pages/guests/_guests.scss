@@ -1,0 +1,56 @@
+.guests__header {
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 100px;
+  background-color: $secondary-color;
+  color: $third-rate-color;
+  border: 1px solid $main-color;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: $main-color;
+  }
+}
+
+.guests__title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  letter-spacing: 0.15em;
+  line-height: 1.5;
+}
+
+.guests__space {
+  @include itemsListFilms;
+  padding-bottom: 15px;
+}
+
+.guests__personal {
+  @include headersVideo;
+}
+
+.guests__info {
+  @include descriptionsVideo;
+}
+
+.guests__link {
+  color: $main-color;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  transition: all 250ms;
+  &:hover,
+  &:focus {
+    opacity: 1;
+    text-decoration: underline;
+    letter-spacing: 0.15em;
+  }
+}
