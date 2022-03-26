@@ -1,0 +1,30 @@
+.events-next__space,
+.events-past__space {
+  @include filmsContainer;
+}
+
+.events-next__header,
+.events-past__header {
+  @include headersListFilms;
+}
+
+.events-next__item,
+.events-past__item {
+  @include itemsListFilms;
+  padding-bottom: 5px;
+}
+
+.events-next__video-header,
+.events-past__video-header {
+  @include headersVideo;
+}
+
+.events-next__video-description,
+.events-past__video-description {
+  @include descriptionsVideo;
+}
+
+.events-past__btn {
+  @include btnFilmsContainer;
+  @include schadowBtn;
+}

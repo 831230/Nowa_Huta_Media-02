@@ -9,6 +9,7 @@
 @import "./components/header-player";
 @import "./components/footer";
 @import "./components/mobile-menu";
+@import "./components/go-top-link";
 
 @import "./layout/home";
 @import "./layout/home-header";
@@ -20,6 +21,8 @@
 @import "./layout/live/live-live";
 @import "./layout/podcasts/podcasts-navigation";
 @import "./layout/podcasts/podcasts-films";
+@import "./layout/events/events-navigation";
+@import "./layout/events/events-films";
 
 @import "./pages/home/news-podcast";
 @import "./pages/home/news-events";
@@ -29,3 +32,5 @@
 @import "./pages/live/live";
 @import "./pages/podcasts/navigation-page";
 @import "./pages/podcasts/films";
+@import "./pages/events/navigation-page";
+@import "./pages/events/films";

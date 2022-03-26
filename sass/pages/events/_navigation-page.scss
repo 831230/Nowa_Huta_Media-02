@@ -1,10 +1,20 @@
-.nav-podcast__item {
+.nav-events__header {
+  margin-bottom: 25px;
+  color: $color-font-theme2;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  line-height: 2.4;
+  font-weight: 600;
+}
+
+.nav-events__item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 15px;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.2em;
   line-height: 2.4;
   font-weight: 500;
   transition: all 500ms;
@@ -23,12 +33,13 @@
   }
 }
 
-.nav-podcast__link {
+.nav-events__link {
   color: $color-font-theme1;
   transition: all 250ms;
   &:hover,
   &:focus {
     color: $main-color;
+    letter-spacing: 0.3em;
   }
 }
 
