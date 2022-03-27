@@ -424,7 +424,7 @@ button {
 @media screen and (min-width: 480px) {
   .nav-podcast .container {
     min-height: 365px;
-    padding: 40px 15px;
+    padding: 60px 15px;
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/podcasts/navigation/mobile/podcasts_nav_bg_mobile.jpg);
@@ -691,6 +691,24 @@ button {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .schedule-week .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .schedule-week .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .schedule-week .container {
+    width: 1200px;
+  }
 }
 
 .news__last-podcasts,
@@ -1359,7 +1377,7 @@ button {
   width: 200px;
   min-height: 300px;
   background-color: black;
-  border: 1px solid #b50c11;
+  border: 2px solid #b50c11;
   border-radius: 6px;
   -webkit-box-shadow: 2px 5px 16px -6px #42445a;
   -moz-box-shadow: 2px 5px 16px -6px #42445a;
@@ -1382,12 +1400,45 @@ button {
   margin: 0 auto;
   width: 180px;
   height: 70px;
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid #b50c11;
 }
 
 .schedule__day-time,
 .schedule__day-event {
   color: #d1d1d1;
   letter-spacing: 0.15em;
+}
+
+@media screen and (min-width: 480px) {
+  .go-top-space {
+    display: none;
+  }
+  .schedule-week__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .schedule-week__wrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .schedule__day {
+    width: 160px;
+    margin-right: 5px;
+  }
+  .schedule__day-header {
+    font-size: 18px;
+  }
+  .schedule__day-item {
+    width: 140px;
+  }
+  .schedule__day-time,
+  .schedule__day-event {
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    font-weight: 500;
+  }
 }
 /*# sourceMappingURL=main.css.map */

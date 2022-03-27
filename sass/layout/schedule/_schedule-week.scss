@@ -4,5 +4,25 @@
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  
+}
+
+// ---------------------480-----------------------
+@media screen and (min-width: 480px) {
+  .schedule-week .container {
+    width: 480px;
+  }
+}
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .schedule-week .container {
+    width: 768px;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .schedule-week .container {
+    width: 1200px;
+  }
 }
