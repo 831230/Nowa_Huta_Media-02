@@ -1,0 +1,113 @@
+
+.schedule-nav .container {
+  min-height: 247px;
+  padding: 10px 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../images/schedule/mini/schedule_nav_mini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .schedule-nav .container {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../images/schedule/mini/schedule_nav_mini@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+// ---------------------480-----------------------
+@media screen and (min-width: 480px) {
+  .schedule-nav .container {
+    min-height: 300px;
+    padding: 30px 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/schedule/mobile/schedule_nav_mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .schedule-nav .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/schedule/mobile/schedule_nav_mobile@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .schedule-nav .container {
+    min-height: 400px;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/schedule/tablet/schedule_nav_tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .schedule-nav .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/schedule/tablet/schedule_nav_tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .schedule-nav .container {
+    min-height: 400px;
+    padding: 40px 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+      url(../images/schedule/desktop/schedule_nav_desktop.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .schedule-nav .container {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/schedule/desktop/schedule_nav_desktop@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+}

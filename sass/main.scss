@@ -24,6 +24,8 @@
 @import "./layout/events/events-navigation";
 @import "./layout/events/events-films";
 @import "./layout/guests/guests-space";
+@import "./layout/schedule/schedule-nav";
+@import "./layout/schedule/schedule-week";
 
 @import "./pages/home/news-podcast";
 @import "./pages/home/news-events";
@@ -36,3 +38,5 @@
 @import "./pages/events/navigation-page";
 @import "./pages/events/films";
 @import "./pages/guests/guests";
+@import "./pages/schedule/navigation-page";
+@import "./pages/schedule/week-section";
