@@ -60,11 +60,11 @@ margin-bottom: 40px;
 
 // ---------------------1200-----------------------
 @media screen and (min-width: 1200px) {
-.about__description-long {
-  margin: 0 auto;
-  width: 900px;
-  color: $color-font-theme2;
-  line-height: 1.5;
-  letter-spacing: 0.15em;
-}
+  .about__description-long {
+    margin: 0 auto;
+    width: 900px;
+    color: $color-font-theme2;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
+  }
 }

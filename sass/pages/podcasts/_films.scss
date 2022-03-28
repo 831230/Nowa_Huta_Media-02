@@ -24,3 +24,53 @@
   @include btnFilmsContainer;
   @include schadowBtn;
 }
+
+// ---------------------480-----------------------
+// @media screen and (min-width: 480px) {
+//   .go-top-space {
+//     display: flex;
+//   }  
+// }
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  // .go-top-space {
+  //   display: flex;
+  // }
+
+  .podcasts__header {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .podcasts__space {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .podcasts__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .podcasts__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .podcasts__space {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .podcasts__item {
+    &:last-child {
+      display: none;
+    }
+  }
+}

@@ -490,7 +490,7 @@ button {
 @media screen and (min-width: 768px) {
   .nav-podcast .container {
     min-height: 450px;
-    padding: 40px 20px;
+    padding: 80px 60px;
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/podcasts/navigation/tablet/podcasts_nav_bg_tablet.jpg);
@@ -509,8 +509,8 @@ button {
 
 @media screen and (min-width: 1200px) {
   .nav-podcast .container {
-    min-height: 700px;
-    padding: 40px 25px;
+    min-height: 500px;
+    padding: 100px 150px;
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/podcasts/navigation/desktop/podcasts_nav_bg_desktop.jpg);
@@ -596,7 +596,7 @@ button {
 @media screen and (min-width: 768px) {
   .nav-events .container {
     min-height: 450px;
-    padding: 40px 20px;
+    padding: 80px 60px;
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/events/tablet/events_nav_bg_tablet.jpg);
@@ -616,7 +616,7 @@ button {
 @media screen and (min-width: 1200px) {
   .nav-events .container {
     min-height: 700px;
-    padding: 40px 25px;
+    padding: 100px 150px;
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/events/desktop/events_nav_bg_desktop.jpg);
@@ -1200,6 +1200,34 @@ button {
   color: #b50c11;
 }
 
+@media screen and (min-width: 768px) {
+  .nav-podcast__item {
+    font-size: 18px;
+    line-height: 2.8;
+    letter-spacing: 0.25em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-podcast__item {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.25em;
+    border: 1px solid #424a57;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: all 800ms;
+  }
+  .nav-podcast__item:hover, .nav-podcast__item:focus {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .nav-podcast__item:hover::after, .nav-podcast__item:hover::before, .nav-podcast__item:focus::after, .nav-podcast__item:focus::before {
+    margin: 0 50px;
+  }
+}
+
 .podcasts__space {
   width: 350px;
   margin: 0 auto;
@@ -1277,6 +1305,38 @@ button {
   border: none;
 }
 
+@media screen and (min-width: 768px) {
+  .podcasts__header {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .podcasts__space {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .podcasts__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .podcasts__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .podcasts__space {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .podcasts__item:last-child {
+    display: none;
+  }
+}
+
 .nav-events__header {
   margin-bottom: 25px;
   color: #d1d1d1;
@@ -1320,6 +1380,34 @@ button {
 .nav-events__link:hover, .nav-events__link:focus {
   color: #b50c11;
   letter-spacing: 0.3em;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-events__item {
+    font-size: 18px;
+    line-height: 2.8;
+    letter-spacing: 0.25em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-events__item {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.25em;
+    border: 1px solid #424a57;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: all 800ms;
+  }
+  .nav-events__item:hover, .nav-events__item:focus {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .nav-events__item:hover::after, .nav-events__item:hover::before, .nav-events__item:focus::after, .nav-events__item:focus::before {
+    margin: 0 50px;
+  }
 }
 
 .events-next__space,
