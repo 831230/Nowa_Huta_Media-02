@@ -11,13 +11,12 @@
 @import "./components/mobile-menu";
 @import "./components/go-top-link";
 
-@import "./layout/home";
-@import "./layout/home-header";
-@import "./layout/home-hero";
-@import "./layout/home-news";
-@import "./layout/home-about";
-@import "./layout/home-footer";
-@import "./layout/home-mobile-menu";
+@import "./layout/home/home-header";
+@import "./layout/home/home-hero";
+@import "./layout/home/home-news";
+@import "./layout/home/home-about";
+@import "./layout/home/home-footer";
+@import "./layout/home/home-mobile-menu";
 @import "./layout/live/live-live";
 @import "./layout/podcasts/podcasts-navigation";
 @import "./layout/podcasts/podcasts-films";

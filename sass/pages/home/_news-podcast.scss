@@ -25,3 +25,44 @@
   @include btnFilmsContainer;
   @include schadowBtn;
 }
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .news__headers {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .news__last-podcasts, 
+  .news__last-events {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .news__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .news__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .news__last-podcasts, 
+  .news__last-events {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .news__item {
+    &:last-child {
+      display: none;
+    }
+  }
+}
