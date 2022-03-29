@@ -28,3 +28,62 @@
   @include btnFilmsContainer;
   @include schadowBtn;
 }
+
+// ---------------------480-----------------------
+// @media screen and (min-width: 480px) {
+//   .go-top-space {
+//     display: flex;
+//   }  
+// }
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  // .go-top-space {
+  //   display: flex;
+  // }
+
+  .events-next__header,
+  .events-past__header {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .events-next__space,
+  .events-past__space {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .events-next__list,
+  .events-past__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .events-next__item,
+  .events-past__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .events-next__space {
+    padding-top: 60px;
+  }
+
+  .events-next__space,
+  .events-past__space {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .events-past__item {
+    &:last-child {
+      display: none;
+    }
+  }
+}

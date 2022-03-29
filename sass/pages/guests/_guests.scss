@@ -54,3 +54,45 @@
     letter-spacing: 0.15em;
   }
 }
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .guests__header {
+    width: 450px;
+    height: 150px;
+  }
+
+  .guests__space {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .guests__description-space {
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .guests__personal {
+    margin-bottom: 30px;
+  }
+
+  .guests__info {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .guests__space--1 {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+  .guests__space--3 {
+    margin-right: 40px;
+  }
+}

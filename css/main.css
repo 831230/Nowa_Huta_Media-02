@@ -653,6 +653,22 @@ button {
   width: 350px;
 }
 
+@media screen and (min-width: 768px) {
+  .guests .container {
+    padding: 40px 0;
+    text-align: center;
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .guests .container {
+    padding: 40px 0;
+    text-align: center;
+    width: 1200px;
+  }
+}
+
 .schedule-nav .container {
   min-height: 247px;
   padding: 10px 10px;
@@ -833,6 +849,17 @@ button {
   color: white;
   background-color: #b50c11;
   border: none;
+}
+
+.news__btn-title--link {
+  display: block;
+  width: 100%;
+  color: #b50c11;
+  transition: color 500ms;
+}
+
+.news__btn-title--link:hover, .news__btn-title--link:focus {
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -1496,6 +1523,46 @@ button {
   border: none;
 }
 
+@media screen and (min-width: 768px) {
+  .events-next__header,
+  .events-past__header {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .events-next__space,
+  .events-past__space {
+    width: 768px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .events-next__list,
+  .events-past__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .events-next__item,
+  .events-past__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .events-next__space {
+    padding-top: 60px;
+  }
+  .events-next__space,
+  .events-past__space {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .events-past__item:last-child {
+    display: none;
+  }
+}
+
 .guests__header {
   margin: 0 auto;
   padding: 0 20px;
@@ -1569,6 +1636,41 @@ button {
   opacity: 1;
   text-decoration: underline;
   letter-spacing: 0.15em;
+}
+
+@media screen and (min-width: 768px) {
+  .guests__header {
+    width: 450px;
+    height: 150px;
+  }
+  .guests__space {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .guests__description-space {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .guests__personal {
+    margin-bottom: 30px;
+  }
+  .guests__info {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .guests__space--1 {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .guests__space--3 {
+    margin-right: 40px;
+  }
 }
 
 .schedule-nav__header {

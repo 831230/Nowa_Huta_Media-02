@@ -3,3 +3,21 @@
   text-align: center;
   width: 350px;
 }
+
+// ---------------------768-----------------------
+@media screen and (min-width: 768px) {
+  .guests .container {
+    padding: 40px 0;
+    text-align: center;
+    width: 768px;
+  }
+}
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .guests .container {
+    padding: 40px 0;
+    text-align: center;
+    width: 1200px;
+  }
+}
