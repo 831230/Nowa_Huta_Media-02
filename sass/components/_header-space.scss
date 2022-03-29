@@ -24,6 +24,7 @@
   display: none;
 }
 
+
 // ---------------------768-----------------------
 @media screen and (min-width: 768px) {
   .header__mobile-menu {
@@ -53,6 +54,18 @@
       font-weight: 600;
     }
   }
+
+  .header__navigation-link--home,
+  .header__navigation-link--live,
+  .header__navigation-link--podcasts,
+  .header__navigation-link--events,
+  .header__navigation-link--schedule,
+  .header__navigation-link--guests,
+  .header__navigation-link--partners {
+    color: $main-color;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+  }
 }
 
 
@@ -76,5 +89,17 @@
       font-weight: 700;
       letter-spacing: 0.4em;
     }
+  }
+
+  .header__navigation-link--home,
+  .header__navigation-link--live,
+  .header__navigation-link--podcasts,
+  .header__navigation-link--events,
+  .header__navigation-link--schedule,
+  .header__navigation-link--guests,
+  .header__navigation-link--partners {
+    color: $main-color;
+    font-weight: 800;
+    letter-spacing: 0.25em;
   }
 }
