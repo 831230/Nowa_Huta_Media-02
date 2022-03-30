@@ -47,9 +47,21 @@
   font-size: 14px;
   letter-spacing: 0.5em;
   font-weight: 500;
+  transition: all 300ms;
     &:hover,
     &:focus {
       color: $main-color;
       margin-left: 10px;
   }
+}
+
+.mobile-menu__link--home,
+.mobile-menu__link--live,
+.mobile-menu__link--podcasts,
+.mobile-menu__link--events,
+.mobile-menu__link--schedule,
+.mobile-menu__link--guests,
+.mobile-menu__link--partners {
+  color: $main-color;
+  font-weight: 800;
 }

@@ -31,16 +31,11 @@
 
 // ---------------------480-----------------------
 // @media screen and (min-width: 480px) {
-//   .go-top-space {
-//     display: flex;
-//   }  
+
 // }
 
 // ---------------------768-----------------------
 @media screen and (min-width: 768px) {
-  // .go-top-space {
-  //   display: flex;
-  // }
 
   .events-next__header,
   .events-past__header {
@@ -70,6 +65,10 @@
 
 // ---------------------1200-----------------------
 @media screen and (min-width: 1200px) {
+  .events__go-top-space {
+    display: none;
+  }
+  
   .events-next__space {
     padding-top: 60px;
   }

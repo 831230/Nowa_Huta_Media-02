@@ -31,3 +31,18 @@
     font-weight: 600;
   }
 }
+
+// ---------------------1200-----------------------
+@media screen and (min-width: 1200px) {
+  .schedule-nav__header {
+    width: 600px;
+    height: 100px;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .schedule-nav__link {
+    display: none;
+  }
+}

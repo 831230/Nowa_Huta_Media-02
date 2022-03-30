@@ -86,10 +86,11 @@
 // ---------------------1200-----------------------
 @media screen and (min-width: 1200px) {
   .schedule-nav .container {
-    min-height: 400px;
+    min-height: 200px;
     padding: 40px 25px;
     margin-bottom: 40px;
     text-align: center;
+    border-radius: 8px;
     background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)),
