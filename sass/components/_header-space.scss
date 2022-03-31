@@ -27,6 +27,10 @@
 
 // ---------------------768-----------------------
 @media screen and (min-width: 768px) {
+  .logo__link-img {
+    margin-right: 40px;
+  }
+
   .header__mobile-menu {
     display: none;
   }
@@ -71,6 +75,10 @@
 
 // ---------------------1200-----------------------
 @media screen and (min-width: 1200px) {
+  .logo__link-img {
+    margin-right: 150px;
+  }
+
   .header__navigation-item {
     &:not(:last-child) {
       margin-right: 25px;

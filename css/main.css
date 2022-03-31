@@ -86,6 +86,9 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .logo__link-img {
+    margin-right: 40px;
+  }
   .header__mobile-menu {
     display: none;
   }
@@ -121,6 +124,9 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .logo__link-img {
+    margin-right: 150px;
+  }
   .header__navigation-item:not(:last-child) {
     margin-right: 25px;
   }
@@ -272,6 +278,65 @@ button {
 @media screen and (min-width: 768px) {
   .footer-social {
     margin-left: 200px;
+  }
+}
+
+.header-social {
+  border: 1px solid #424a57;
+  border-radius: 4px;
+  padding: 8px 8px;
+  text-align: center;
+}
+
+.header-social__list {
+  display: flex;
+}
+
+.header-social__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header-social__link {
+  display: flex;
+  align-items: center;
+}
+
+.header-social__ico {
+  width: 15px;
+  height: 15px;
+  fill: white;
+  transition: fill 300ms;
+}
+
+.header-social__ico:hover, .header-social__ico:focus {
+  fill: #b50c11;
+}
+
+@media screen and (min-width: 768px) {
+  .header__space {
+    position: absolute;
+  }
+  .header-social {
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    background-color: black;
+  }
+  .header-social:hover, .header-social:focus {
+    width: 60px;
+  }
+  .header-social__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-social__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .header-social__link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
