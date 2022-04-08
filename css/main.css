@@ -226,22 +226,28 @@ button {
   font-weight: 800;
 }
 
-.go-top-space {
-  display: flex;
-  justify-content: end;
-  margin-bottom: 10px;
+.go-top-arrow__space {
+  position: absolute;
 }
 
-.go-top {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  color: #b50c11;
-  opacity: 0.3;
-  transition: all 250ms;
+.go-top-arrow__link {
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../images/arrow1.png);
+  background-size: cover;
+  transition: all 400ms;
 }
 
-.go-top:hover, .go-top:focus {
-  opacity: 1;
+.go-top-arrow__link:hover, .go-top-arrow__link:focus {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: #b50c11;
+  border: 1px solid #b50c11;
 }
 
 .footer-social__item:not(:last-child) {

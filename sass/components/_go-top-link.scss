@@ -1,17 +1,41 @@
-.go-top-space {
-  display: flex;
-  justify-content: end;
-  margin-bottom: 10px;
+// .go-top-space {
+//   display: flex;
+//   justify-content: end;
+//   margin-bottom: 10px;
+// }
+
+// .go-top {
+//   font-size: 11px;
+//   letter-spacing: 0.2em;
+//   color: $main-color;
+//   opacity: 0.3;
+//   transition: all 250ms;
+//   &:hover,
+//   &:focus {
+//     opacity: 1;
+//   }
+// }
+
+.go-top-arrow__space {
+  position: absolute;
 }
 
-.go-top {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  color: $main-color;
-  opacity: 0.3;
-  transition: all 250ms;
+.go-top-arrow__link{
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../images/arrow1.png);
+  background-size: cover;
+  transition: all 400ms;
   &:hover,
   &:focus {
-    opacity: 1;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: $main-color;
+    border: 1px solid $main-color;
   }
 }
